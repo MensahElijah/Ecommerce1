@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="header">
+        <a href="#">
+         <img src="img/can1.jpg" alt="" class="logo">
+        </a> 
+        <div>
+         <ul id="navbar">
+             <li>
+                 <a href="index.html" class="active">Home</a>
+             </li>
+             <li>
+                 <a href="shop.html">Shop</a>
+             </li>
+             <li>
+                 <a href="blog.html">Blog</a>
+             </li>
+             <li>
+                 <a href="about.html">About</a>
+             </li>
+             <li>
+                 <a href="contact.html">Contact</a>
+             </li>
+             <li id="lg-bag">
+                 <a href="cart.html"><i class=" fa fa-shopping-bag"></i></a>
+             </li>
+               <a href="#" id="close"><i class="fa fa-times"></i></a>
+         </ul>
+        </div>
+        <div id="mobile">
+             <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+             <i id="bar" class="fa fa-outdent"></i>
+        </div>
+ 
+     </section>
+     
+
+    <section class="section2">
+    <div class="payment .active">
+        <h1 class="payTitle">Personal Information</h1>
+        <label>Name and Surname</label>
+        <input class="Iput" type="text" placeholder="John Doe">
+        <label>Phone number</label>
+        <input class="Iput" type="text" placeholder="+233 24805679">
+        <label>Address</label>
+        <input class="Iput" type="text" placeholder="Osro fros street Tse Addo">
+        <h1 class="payTitle">Card Information</h1>
+        <div class="row">
+          <img class="payLogo" src="img/dress/pay.jpg" alt="" >  
+        </div>
+        <input class="Iput" type="password" placeholder="Card Number">
+        <div class="cardInfo">
+            <input class="Iput sm" placeholder="mm" type="text">
+            <input class="Iput sm" placeholder="yy" type="text">
+            <input class="Iput sm" placeholder="cvv" type="text">         
+        </div>
+        <button class="payButton">Checkout!</button>
+        <!-- <span class="close1 ">X</span> -->
+    </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
